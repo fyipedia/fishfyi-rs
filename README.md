@@ -1,6 +1,11 @@
-# fishfyi-rs
+# fishfyi
 
-Rust client for [FishFYI](https://fishfyi.com) REST API.
+[![crates.io](https://img.shields.io/crates/v/fishfyi.svg)](https://crates.io/crates/fishfyi)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+Rust client for the [FishFYI](https://fishfyi.com) REST API. Fish species. Uses `reqwest` for HTTP.
+
+> **Explore at [fishfyi.com](https://fishfyi.com)** — interactive tools and comprehensive reference.
 
 ## Install
 
@@ -9,21 +14,35 @@ Rust client for [FishFYI](https://fishfyi.com) REST API.
 fishfyi = "0.1"
 ```
 
-## Usage
+## Quick Start
 
 ```rust
-let client = fishfyi::Client::new();
-let result = client.search("query").unwrap();
-println!("{:?}", result);
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let client = fishfyi::Client::new();
+    let result = client.search("query")?;
+    println!("{:?}", result);
+    Ok(())
+}
 ```
+
+## Also Available
+
+| Platform | Install | Link |
+|----------|---------|------|
+| **Python** | `pip install fishfyi` | [PyPI](https://pypi.org/project/fishfyi/) |
+| **npm** | `npm install fishfyi` | [npm](https://www.npmjs.com/package/fishfyi) |
+| **Go** | `go get github.com/fyipedia/fishfyi-go` | [pkg.go.dev](https://pkg.go.dev/github.com/fyipedia/fishfyi-go) |
+| **Rust** | `cargo add fishfyi` | [crates.io](https://crates.io/crates/fishfyi) |
+| **Ruby** | `gem install fishfyi` | [rubygems](https://rubygems.org/gems/fishfyi) |
+
 
 ## Links
 
-- **Site**: [https://fishfyi.com](https://fishfyi.com)
-- **API**: [https://fishfyi.com/api/v1/](https://fishfyi.com/api/v1/)
-- **PyPI**: [pypi.org/project/fishfyi](https://pypi.org/project/fishfyi/)
-- **npm**: [npmjs.com/package/fishfyi](https://www.npmjs.com/package/fishfyi)
-- **Go**: [pkg.go.dev/github.com/fyipedia/fishfyi-go](https://pkg.go.dev/github.com/fyipedia/fishfyi-go)
+- **Site**: [fishfyi.com](https://fishfyi.com)
+- **API**: [fishfyi.com/api/v1/](https://fishfyi.com/api/v1/)
+- **OpenAPI**: [fishfyi.com/api/v1/schema/](https://fishfyi.com/api/v1/schema/)
+
+Part of the [FYIPedia](https://fyipedia.com) open-source developer tools ecosystem.
 
 ## License
 
