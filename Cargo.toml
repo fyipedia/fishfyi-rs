@@ -1,0 +1,16 @@
+[package]
+name = "fishfyi"
+version = "0.1.0"
+edition = "2021"
+description = "Rust client for the FishFYI API — https://fishfyi.com"
+license = "MIT"
+repository = "https://github.com/fyipedia/fishfyi-rs"
+homepage = "https://fishfyi.com"
+documentation = "https://docs.rs/fishfyi"
+keywords = ["api", "client", "fyi", "fish"]
+categories = ["api-bindings", "web-programming::http-client"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json", "blocking"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
