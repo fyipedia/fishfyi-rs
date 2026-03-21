@@ -44,6 +44,18 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 Part of the [FYIPedia](https://fyipedia.com) open-source developer tools ecosystem.
 
+## Nature FYI Family
+
+Part of the [FYIPedia](https://fyipedia.com) open-source developer tools ecosystem.
+
+| Site | Domain | Focus |
+|------|--------|-------|
+| BirdFYI | [birdfyi.com](https://birdfyi.com) | 11,251 birds, orders, families, conservation |
+| DinoFYI | [dinofyi.com](https://dinofyi.com) | 6,142 dinosaurs, paleontology, geological eras |
+| **FishFYI** | [fishfyi.com](https://fishfyi.com) | Fish species, marine biology, habitats |
+| PlantFYI | [plantfyi.com](https://plantfyi.com) | 379,774 plants, taxonomy, cultivation |
+| SpeciesFYI | [speciesfyi.com](https://speciesfyi.com) | Species taxonomy, classification, biodiversity |
+
 ## License
 
 MIT
