@@ -41,7 +41,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 - **Site**: [fishfyi.com](https://fishfyi.com)
 - **API**: [fishfyi.com/api/v1/](https://fishfyi.com/api/v1/)
 - **OpenAPI**: [fishfyi.com/api/v1/schema/](https://fishfyi.com/api/v1/schema/)
-
+- **Glossary**: [fishfyi.com/glossary/](https://fishfyi.com/glossary/)
+- **Guides**: [fishfyi.com/guides/](https://fishfyi.com/guides/)
+- **Tools**: [fishfyi.com/tools/](https://fishfyi.com/tools/)
+- **Developers**: [fishfyi.com/developers/](https://fishfyi.com/developers/)
 Part of the [FYIPedia](https://fyipedia.com) open-source developer tools ecosystem.
 
 ## Nature FYI Family
